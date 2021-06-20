@@ -1,7 +1,6 @@
 # ProjectRJ
 A collection of creations authored by Ricardo and Joseph.
 
-Test by Joseph to see if he fixed git
 
 TODO(
     Currently adding image files to /images folder.
