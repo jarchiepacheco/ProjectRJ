@@ -56,6 +56,16 @@ footer {
     width: 99%;
     height: 4.0rem;            /* Footer height */
 }
+/*
+.main {
+    margin: auto;
+}
+#mainPhoto {
+    float: left;
+    padding-right: 20px;
+}
+*/
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
