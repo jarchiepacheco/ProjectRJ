@@ -1,7 +1,7 @@
 # ProjectRJ
 A collection of creations authored by Ricardo and Joseph.
 
-test for Joseph on ms surface
+
 
 TODO(
     Currently adding image files to /images folder.
