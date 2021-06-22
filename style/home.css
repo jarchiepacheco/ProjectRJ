@@ -1,3 +1,8 @@
+:root {
+    --footer-height: 3.0rem;
+    --footer-radius: 5px;
+}
+
 html {
     background-color: hsl(180, 100%, 87%);
 }
@@ -9,11 +14,13 @@ html {
 }
 
 #content-wrap {
-    padding-bottom: 4.0rem;    /* Footer height */
+    padding-bottom: var(--footer-height);    /* Footer height */
 }
 
 #footer-text {
+    margin: 5px 0px 0px 0px;
     padding: 0px 0px 0px 10px;
+    border-radius: var(--footer-radius);
 }
 
 header {
@@ -52,8 +59,10 @@ footer {
     position: fixed;     /* absolute to scroll w/ page content*/
     bottom: 0;
     width: 99%;
-    height: 4.0rem;            /* Footer height */
+    height: var(--footer-height);            /* Footer height */
+    border-radius: var(--footer-radius);
 }
+
 /*
 .main {
     margin: auto;
