@@ -34,8 +34,6 @@ header {
     font-size: 18px;
     border-radius: 4px;
     font-weight: bold;
-    padding:
-    
 }
 .button:hover {
     background-color: hsl(36, 83%, 65%);
