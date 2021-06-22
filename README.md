@@ -1,7 +1,7 @@
 # ProjectRJ
 A collection of creations authored by Ricardo and Joseph.
 
-
+test by Joseph on surface using VS Code
 
 TODO(
     Currently adding image files to /images folder.
