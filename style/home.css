@@ -1,0 +1,60 @@
+html {
+    background-color: hsl(180, 100%, 87%);
+}
+#page-container {
+    /* The page-container goes around everything on the page, 
+    and sets its minimum height to 100% of the viewport height (vh). */
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 1.65rem;    /* Footer height */
+}
+
+#footer-text {
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+    font-size: large;
+    position: sticky;
+    top: 0px;
+    
+}
+.button {
+    background-color:hsl(36, 83%, 75%);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 4px;
+    font-weight: bold;
+    
+}
+.button:hover {
+    background-color: hsl(36, 83%, 65%);
+    transition: 0.2s;
+    text-decoration: none;
+    color: white;
+}
+
+h1, h2 {
+    color: white;
+    background-color: hsl(36, 83%, 75%);
+    font-family: 'Pacifico', cursive;
+}
+footer {
+    background-color:hsl(36, 83%, 75%);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1.65rem;            /* Footer height */
+}
+p {
+    padding-top: 1000px;
+}
