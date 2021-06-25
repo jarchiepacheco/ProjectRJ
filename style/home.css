@@ -82,6 +82,7 @@ footer {
 .grid-item {
     background-color:hsl(180, 76%, 18%);
     padding: 10px;
+    width: 300;
 }
 
 /* @media changes for mobile */
@@ -104,6 +105,11 @@ footer {
     .button {
         float: none;
         width: 100%;
+    }
+
+    .grid-item {
+        width: 100%;
+        padding: 0px;
     }
 }
 
