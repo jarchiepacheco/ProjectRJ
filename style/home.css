@@ -6,6 +6,7 @@
 html {
     background-color: hsl(180, 100%, 87%);
 }
+
 #page-container {
     /* The page-container goes around everything on the page, 
     and sets its minimum height to 100% of the viewport height (vh). */
@@ -30,6 +31,7 @@ header {
     top: 0px;
     
 }
+
 .button {
     background-color:hsl(36, 83%, 85%);
     border: none;
@@ -42,6 +44,7 @@ header {
     border-radius: 4px;
     font-weight: bold;
 }
+
 .button:hover {
     background-color: hsl(36, 83%, 65%);
     transition: 0.2s;
@@ -62,17 +65,6 @@ footer {
     height: var(--footer-height);            /* Footer height */
     border-radius: var(--footer-radius);
 }
-
-/*
-.main {
-    margin: auto;
-}
-#mainPhoto {
-    float: left;
-    padding-right: 20px;
-}
-*/
-
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -87,9 +79,31 @@ footer {
     font-weight: bold;
     box-shadow: 5px 5px #88888850;
 }
-
 .grid-item {
     background-color:hsl(180, 76%, 18%);
     padding: 10px;
+}
+
+/* @media changes for mobile */
+
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;
+        border: 3px solid red;
+        margin: 50px auto;
+        width: 80%;
+        color: white;
+        background-color: hsl(36, 83%, 85%);
+        font-size: 16px;
+        font-weight: bold;
+        box-shadow: 5px 5px #88888850;
+    }
+
+    .button {
+        float: none;
+        width: 100%;
+    }
 }
 
