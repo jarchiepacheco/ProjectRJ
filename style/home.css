@@ -61,7 +61,8 @@ footer {
     background-color:hsl(36, 83%, 85%);
     position: fixed;     /* absolute to scroll w/ page content*/
     bottom: 0;
-    width: 99%;
+    margin: auto;
+    width: 98%;
     height: var(--footer-height);            /* Footer height */
     border-radius: var(--footer-radius);
 }
