@@ -30,6 +30,7 @@ header {
     position: sticky;
     top: 0;
     
+    
 }
 
 .button {
@@ -43,6 +44,7 @@ header {
     font-size: 18px;
     border-radius: 4px;
     font-weight: bold;
+    box-shadow: 2px 2px #88888850;
 }
 
 .button:hover {
@@ -50,12 +52,14 @@ header {
     transition: 0.2s;
     text-decoration: none;
     color: white;
+    box-shadow: 2px 2px #7271716c;
 }
 
 h1, h2 {
     color: white;
     background-color: hsl(36, 83%, 85%);
     font-family: 'Pacifico', cursive;
+    border-radius: 10px;
 }
 footer {
     display: block;
@@ -81,6 +85,7 @@ footer {
     font-size: 16px;
     font-weight: bold;
     box-shadow: 5px 5px #88888850;
+    border-radius: 10px;
 }
 .grid-item {
     /*background-color:hsl(180, 76%, 18%);*/
