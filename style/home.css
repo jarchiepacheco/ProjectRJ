@@ -85,6 +85,7 @@ footer {
 .grid-item {
     /*background-color:hsl(180, 76%, 18%);*/
     width: 100%;
+    color: black;
 }
 
 /* @media changes for mobile */
