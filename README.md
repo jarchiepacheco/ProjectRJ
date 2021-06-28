@@ -14,3 +14,16 @@ TODO(
     
 )
 
+
+
+Website Ideas
+{
+    Animal themed cafe
+    Hiking blogger
+    Small time jewelry craftsman/seller
+    Fantasy book author
+    Government office website
+    Twitch streamer website
+    A pet social media influencer
+    A forum for NMRIH
+}
